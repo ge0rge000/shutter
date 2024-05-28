@@ -43,7 +43,7 @@
             @foreach($shutters as $shutter)
                 @foreach($shutter->photos as $photo)
                     <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="{{ Storage::url($photo->image_url) }}" alt="{{ $shutter->name }}">
+                        <img class="img-fluid" src="{{Storage::url(basename($photo->image_url)) }}" alt="{{ $shutter->name }}">
                         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
                             <div class="container">
                                 <div class="row justify-content-start">
