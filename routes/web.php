@@ -18,13 +18,13 @@ use App\Livewire\Admin\AddCategoryphoto; // Note the correct namespace
 use App\Livewire\Admin\AddshutterComponent; // Note the correct namespace
 use App\Livewire\Admin\ShutterShow; // Note the correct namespace
 use App\Livewire\Admin\EditShutter; // Note the correct namespace
-use App\Livewire\Admin\QuoteComponent;
+
 
 use App\Livewire\Admin\PhotoListPage;
 use App\Livewire\Admin\EditPhoto;
 use App\Livewire\Admin\CategoryPhotoList;
 
-
+use App\Livewire\Admin\QuoteComponent;
 
 //seo
 Route::get('sitemap.xml',[Sitemapcontroller::class,'index']);
@@ -47,7 +47,7 @@ Route::get('/admin/edit-shutter/{shutterId}', EditShutter::class)->name('edit_sh
 
 
 Route::get('/admin/show-category-photo-shutter', CategoryPhotoList::class)->name('cartegory_photo_list');
-Route::get('/admin/inquires',QuoteComponent::class)->name('inquires');
+Route::get('/admin/quote-inquire',QuoteComponent::class)->name('quote_inquire');
 
 Route::get('/admin/add-category-photo-shutter', AddCategoryphoto::class)->name('add_cartegory_photo');
 Route::get('/admin/shutter-photos/{shutterId}', PhotoListPage::class)->name('photo-list');
