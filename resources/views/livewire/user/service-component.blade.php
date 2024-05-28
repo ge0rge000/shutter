@@ -36,7 +36,7 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp de" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         @foreach($shutter->photos as $photo)
-                        <img class="img-fluid fixed-size" src="{{ Storage::url($photo->image_url) }}" alt="">
+                        <img class="img-fluid fixed-size" src="{{ asset('storage/'.$photo->image_url) }}" alt="">
                         @endforeach
                         <h4 class="mb-3">{{$shutter->name_out}}</h4>
                         <p>{{ $this->stripTagsAndTruncate($shutter->desc_out) }}</p>
