@@ -47,7 +47,7 @@ Route::get('/admin/edit-shutter/{shutterId}', EditShutter::class)->name('edit_sh
 
 
 Route::get('/admin/show-category-photo-shutter', CategoryPhotoList::class)->name('cartegory_photo_list');
-Route::get('/admin/quotes', QuoteComponent::class)->name('quotes_admin');
+Route::get('/admin/quotes',QuoteComponent::class)->name('quote_admin');
 
 Route::get('/admin/add-category-photo-shutter', AddCategoryphoto::class)->name('add_cartegory_photo');
 Route::get('/admin/shutter-photos/{shutterId}', PhotoListPage::class)->name('photo-list');
