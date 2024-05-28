@@ -27,15 +27,17 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
                         @foreach ($quotes as $key=> $quote )
+                      <tr>
+
                         <th scope="row">{{ $key+1}}</th>
                         <td>{{$quote->name}}</td>
                         <td>{{$quote->contact}}</td>
                         <td>{{$quote->message}}</td>
-                        @endforeach
+
 
                       </tr>
+                      @endforeach
                     </tbody>
                   </table>
                 </div>
