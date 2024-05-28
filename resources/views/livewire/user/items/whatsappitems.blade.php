@@ -47,10 +47,10 @@
     </head>
     <body>
         <div class="icon-container">
-            <a href="https://wa.me/yourphonenumber" class="icon-button whatsapp">
+            <a href="https://wa.me/+971557474526" class="icon-button whatsapp">
                 <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="tel:+1234567890" class="icon-button call">
+            <a href="tel:+971557474526" class="icon-button call">
                 <i class="fas fa-phone"></i>
             </a>
         </div>
