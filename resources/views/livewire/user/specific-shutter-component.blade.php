@@ -41,7 +41,7 @@ img.auto {
     height: auto;
 }
     </style>
-    <div class="container-fluid page-header py-5" style=" background-image: url('{{ Storage::url($shutter->photos->first()->image_url) }}'); background-size: cover; background-position: center;">
+    <div class="container-fluid page-header py-5" style=" background-image: url('{{ Storage::url(basename($shutter->photos->first()->image_url)) }}'); background-size: cover; background-position: center;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">{{ $shutter->name }}</h1>
             <nav aria-label="breadcrumb animated slideInDown">
