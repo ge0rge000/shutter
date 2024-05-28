@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield("title", 'UAE\'s #1 Rolling Shutter Suppliers | Leaders in Roller Shutter Door')</title>
 
-
+    <meta name="google-site-verification" content="wxPbchaiVF2btLHd1FIf1UtwWSlX7WoUX3eZ8KJa8ew" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="keywords" content="Galvanized Steel Rolling Shutter, Dubai shop shutter, Insulated Aluminum Rolling Shutter Door, Polycarbonate Rolling Shutter Door, High Speed Doors, Rollup Doors, Industrial Doors, Garage Doors">
 
