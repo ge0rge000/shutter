@@ -75,8 +75,9 @@
                 </div>
                 <a href="{{ route('contact') }}" class="nav-item nav-link {{ Request::routeIs('contact') ? 'active' : '' }}">Contact</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+971 55 7474 526</h4>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i i class="fa fa-phone text-primary me-3" aria-hidden="true"></i>+971 55 7474 526</h4>
         </div>
+
 
     </nav>
     <!-- Navbar End -->
