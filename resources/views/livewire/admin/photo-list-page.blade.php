@@ -25,7 +25,7 @@
                     <td>{{ $photo->id }}</td>
                     <td>{{ $photo->category->name }}</td>
                     <td>{{ $photo->shutter_id }}</td>
-                    <td><img src="{{ Storage::url($photo->image_url) }}" width="100" class="img-thumbnail"></td>
+                    <td><img src="{{ Storage::url(basename($photo->image_url)) }}" width="100" class="img-thumbnail"></td>
                     <td>
                         <a href="{{ route('edit-photo', $photo->id) }}" class="btn btn-primary btn-sm">Edit</a>
                         <button wire:click="deletePhoto({{ $photo->id }})" class="btn btn-danger btn-sm">Delete</button>

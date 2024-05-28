@@ -67,7 +67,7 @@ img.auto {
                                 <h2 class="section-title">Applications For {{ $shutter->name }} </h2>
                                 <div class="image-grid">
                                     @foreach($photosshuttersapplication as $photo)
-                                    <div class="image-item"><img src="{{ Storage::url($photo->image_url) }} "alt="{{$shutter->name}}"></div>
+                                    <div class="image-item"><img  src="{{ Storage::url(basename($photo->image_url)) }}" alt="{{$shutter->name}}"></div>
                                     @endforeach
 
                                 </div>
@@ -86,7 +86,7 @@ img.auto {
                                 <div class="image-grid">
 
                                     @foreach($photosshutterslast as $photo)
-                                    <div class="image-item"><img src="{{ Storage::url($photo->image_url) }} "alt="{{$shutter->name}}"></div>
+                                    <div class="image-item"><img src="{{ Storage::url(basename($photo->image_url)) }}" alt="{{$shutter->name}}"></div>
                                     @endforeach
 
                                 </div>
@@ -116,7 +116,7 @@ img.auto {
 
                                 <div class="image-grid {{ $photosshuttershardware->count() == 1 ? 'single-image' : '' }}">
                                     @foreach($photosshuttershardware as $photo)
-                                        <div class="image-item"><img class="auto" src="{{ Storage::url($photo->image_url) }}" alt="{{ $shutter->name }}"></div>
+                                        <div class="image-item"><img class="auto" src="{{ Storage::url(basename($photo->image_url)) }}"alt="{{ $shutter->name }}"></div>
                                     @endforeach
                                 </div>
                             </div>
