@@ -396,7 +396,7 @@ data-open="click" data-menu="vertical-content-menu" data-col="2-columns">
                 <li ><a class="menu-item" href="{{route("add_cartegory_photo")}}" data-i18n="nav.dash.ecommerce">add category photos </a>
                 </li>
 
-                <li ><a class="menu-item" href="{{route("quote_admin")}}" data-i18n="nav.dash.ecommerce">Quotes</a>
+                <li ><a class="menu-item" href="{{route("inquires")}}" data-i18n="nav.dash.ecommerce">Quotes</a>
                 </li>
 
 
