@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UAE's #1 Rolling Shutter Suppliers | Leaders in Roller Shutter Door</title>
+    <title>@yield("title", 'UAE\'s #1 Rolling Shutter Suppliers | Leaders in Roller Shutter Door')</title>
+
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Galvanized Steel Rolling Shutter Dubai, shop shutter, Insulated Aluminum & Polycarbonate Rolling Shutter Door, High Speed, Rollup & Industrial Doors" name="description">
+    <meta name="keywords" content="Galvanized Steel Rolling Shutter, Dubai shop shutter, Insulated Aluminum Rolling Shutter Door, Polycarbonate Rolling Shutter Door, High Speed Doors, Rollup Doors, Industrial Doors, Garage Doors">
+
+    <meta name="description" content="@yield('desc', 'Galvanized Steel Rolling Shutter Dubai, shop shutter, Insulated Aluminum & Polycarbonate Rolling Shutter Door, High Speed, Rollup & Industrial Doors, Garage Doors')">
+
     <link rel="canonical" href="{{ url()->current() }}">
     <!-- Favicon -->
     <link href="{{ asset('logo/logo.png') }}" rel="icon">
@@ -31,12 +35,14 @@
     <!-- Template Stylesheet -->
     <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">
     @livewireStyles
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PZDHJSGS');</script>
-        <!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PZDHJSGS');</script>
+    <!-- End Google Tag Manager -->
+
     @if (isset($schemaData))
     <script type="application/ld+json">
         {!! $schemaData !!}
@@ -48,17 +54,16 @@
 
 
 <body>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZDHJSGS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <style>
     img.logo {
     filter: invert(1);
     margin-bottom: 8px;
 }
 </style>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZDHJSGS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
     <livewire:user.items.whatsappitems/>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">

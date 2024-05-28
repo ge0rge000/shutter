@@ -41,6 +41,12 @@ img.auto {
     height: auto;
 }
     </style>
+ @section("title", $shutter->name)
+ @section('desc', strip_tags($shutter->desc))
+
+
+
+
     <div class="container-fluid page-header py-5" style=" background-image: url('{{ Storage::url(basename($shutter->photos->first()->image_url)) }}'); background-size: cover; background-position: center;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">{{ $shutter->name }}</h1>
