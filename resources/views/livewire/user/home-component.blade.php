@@ -49,10 +49,10 @@
 
 
     <!-- Quote Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxxl py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-5 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
                     <h1 class="mb-5">Request A Free Quote!</h1>
                     <p class="mb-5">
@@ -66,12 +66,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-6 col-12">
                     <livewire:user.items.contact-component />
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Quote End -->
 
