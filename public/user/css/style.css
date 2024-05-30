@@ -94,6 +94,9 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+h4.m-0.pe-lg-5.d-none.d-lg-block {
+    font-size: 17px;
+}
 
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link  {
@@ -168,7 +171,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;

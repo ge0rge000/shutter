@@ -62,6 +62,12 @@
     filter: invert(1);
     margin-bottom: 8px;
 }
+@media (max-width: 1183px) {
+    h4.m-0.pe-lg-5.d-none.d-lg-block {
+
+        display: none !important;
+    }
+  }
 </style>
 
     <livewire:user.items.whatsappitems/>
