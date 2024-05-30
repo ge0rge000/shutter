@@ -62,7 +62,11 @@
     filter: invert(1);
     margin-bottom: 8px;
 }
-@media (max-width: 1183px) {
+img.Company_Logo {
+    height: 93px !important;
+    width: 84px;
+}
+@media (max-width: 1244px) {
     h4.m-0.pe-lg-5.d-none.d-lg-block {
 
         display: none !important;
@@ -73,9 +77,12 @@
     <livewire:user.items.whatsappitems/>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="{{route('home_user')}}"  class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-
-            <h2 class="mb-2 text-white">ROLLING SHUTTER</h2>
+        <a href="{{route('home_user')}}" class="navbar-brand bg-primary d-flex align-items-center justify-content-between px-1   px-lg-5">
+            <div class="d-flex flex-column align-items-start">
+                <h2 class="mb-2 text-white">ROLLING SHUTTER</h2>
+                <span class="text-white" style="font-size: 0.75em;">MPGT Leaders in Rolling Shutters</span>
+            </div>
+            <img  class="Company_Logo" src="{{ asset('logo/logo.png') }}" alt="" style="height: 50px;">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -91,18 +98,21 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Repair Services</a>
                     <div class="dropdown-menu fade-up m-0">
-                        @foreach (  $shutters as $shutter )
-                        <a href="{{ route('specific-shutter', ['slug' => Str::slug($shutter->name)]) }}"" class="dropdown-item ">{{$shutter->name}}</a>
+                        @foreach ($shutters as $shutter)
+                        <a href="{{ route('specific-shutter', ['slug' => Str::slug($shutter->name)]) }}" class="dropdown-item">{{$shutter->name}}</a>
                         @endforeach
                     </div>
                 </div>
                 <a href="{{ route('contact') }}" class="nav-item nav-link {{ Request::routeIs('contact') ? 'active' : '' }}">Contact</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i i class="fa fa-phone text-primary me-3" aria-hidden="true"></i>+971 55 7474 526</h4>
+            <div class="d-none d-lg-block pe-lg-5">
+                <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3" aria-hidden="true"></i>+971 55 7474 526</h4>
+                <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-envelope text-primary me-3" aria-hidden="true"></i>info@rollingshutter.ae</h4>
+            </div>
         </div>
-
-
     </nav>
+
+
     <!-- Navbar End -->
 
 
