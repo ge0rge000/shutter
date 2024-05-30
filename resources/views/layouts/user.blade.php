@@ -68,14 +68,15 @@ img.Company_Logo {
     background: white;
     border-radius: 10px;
 }
-div#navbarCollapse {
-    width: 3px;
+.container-xxxl.py-5 {
+    width: 97%;
 }
 @media (max-width: 1244px) {
     h4.m-0.pe-lg-5.d-none.d-lg-block {
 
         display: none !important;
     }
+
   }
 </style>
 
