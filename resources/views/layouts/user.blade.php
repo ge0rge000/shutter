@@ -65,6 +65,8 @@
 img.Company_Logo {
     height: 93px !important;
     width: 84px;
+    background: white;
+    border-radius: 10px;
 }
 @media (max-width: 1244px) {
     h4.m-0.pe-lg-5.d-none.d-lg-block {
