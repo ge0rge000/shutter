@@ -117,7 +117,7 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Dubai - al barsha 1 - B8 Building - Office No. 501
                     </p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971 557474526</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@rollingshutter.ae</p>
                     <div class="d-flex pt-2">
                         {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> --}}
                         <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61560394915571"><i class="fab fa-facebook-f"></i></a>
