@@ -1,4 +1,5 @@
 <div>
+
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
         <div class="container contact-page py-5 px-lg-0">
             <div class="row g-5 mx-lg-0">
@@ -6,6 +7,14 @@
 
                     <h1 class="mb-4">Our Nationwide Sales & Technical Support is on The Line.
                     </h1>
+                    <div class="contact-info">
+                        <div class="contact-item d-flex align-items-center mb-3">
+                            <i class="fa fa-phone text-primary me-3" aria-hidden="true" style="font-size: 1.5em;"></i>
+                            <h2 class="m-0">+971 55 7474 526</h2>
+                        </div>   <div class="contact-item d-flex align-items-center mb-3">
+                            <i class="fa fa-envelope text-primary me-3" aria-hidden="true" style="font-size: 1.5em;"></i>
+                            <h2 class="m-0">info@rollingshutter.ae</h2>
+                        </div>
                     <p class="mb-4">
                         <div class="et_pb_text_inner"><h3>We  Available in:</h3>
                             <ul>

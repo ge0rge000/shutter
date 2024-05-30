@@ -43,9 +43,7 @@
                         <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>24/7 Telephone Support</h5>
-                            <p class="mb-0">Our well qualified technical experts always ready to serve service 24*7 Services at UAE, Middle East & Africa. We offer the cheapest price Guaranteed.
-
-                            </p>
+                            <p class="mb-0">Our well-qualified technical experts are always ready to serve 24/7 services in UAE, Middle East & Africa. We offer the cheapest price guaranteed. Call us at +971 55 7474 526.</p>
                         </div>
                     </div>
                 </div>

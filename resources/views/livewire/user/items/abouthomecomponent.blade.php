@@ -25,7 +25,7 @@
                         <div class="ms-4">
                             <h5>Quality Assurance
                             </h5>
-                            <p class="mb-0">ISO 9001:2015 certified Company top notch roller shutters backed by our 10 year warranty on steel. Security Roller Shutter Doors with free consultation, fastest service of rolling shutters.
+                            <p class="mb-0">Security Roller Shutter Doors with free consultation, fastest service of rolling shutters.
                             </p>
                         </div>
                     </div>
@@ -33,11 +33,10 @@
                         <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>24/7 Telephone Support</h5>
-                            <p class="mb-0">Our well qualified technical experts always ready to serve service 24*7 Services at UAE, Middle East & Africa. We offer the cheapest price Guaranteed.
-
-                            </p>
+                            <p class="mb-0">Our well-qualified technical experts are always ready to serve 24/7 services in UAE, Middle East & Africa. We offer the cheapest price guaranteed. Call us at +971 55 7474 526.</p>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="text-secondary text-uppercase mb-3">About Us</h6>

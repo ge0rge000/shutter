@@ -1,4 +1,5 @@
 <div>
+
     <div class="bg-light p-4">
         @if (session()->has('message'))
             <div class="alert alert-success">
@@ -34,5 +35,5 @@
             </div>
         </form>
     </div>
-    
+
 </div>

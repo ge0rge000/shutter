@@ -138,6 +138,29 @@ img.auto {
 
         </div>
     </div>
+    <div class="container-xxxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Quote!</h1>
+                    <p class="mb-5">
+                        Discover the ultimate in security and convenience with our state-of-the-art rolling shutters in Dubai. Perfect for both residential and commercial properties, our shutters offer unparalleled protection against harsh weather conditions, intruders, and noise. Designed to blend seamlessly with your property's aesthetics, our rolling shutters are easy to operate and maintain, ensuring long-lasting durability and peace of mind. Get a free quote today and enhance your property's safety and style with our premium rolling shutters.
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-phone text-primary me-3 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0"><a href="tel:+971557474526" class="text-primary">+971 55 7474 526</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-12">
+                    <livewire:user.items.contact-component />
+                </div>
+            </div>
+        </div>
+    </div>
     <livewire:user.service-component/>
 
 
