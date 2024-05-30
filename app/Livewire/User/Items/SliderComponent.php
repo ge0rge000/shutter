@@ -11,15 +11,15 @@ class SliderComponent extends Component
 
     public function mount()
     {
-
         $this->shutters = Shutter::with(['photos' => function ($query) {
             $query->whereHas('category', function ($query) {
                 $query->where('name', 'outphoto');
             });
         }])
-        ->inRandomOrder()
+        ->orderBy('id') // Replace 'id' with the column you want to sort by
         ->limit(5)
         ->get();
+
     }
     public function stripTagsAndTruncate($text)
     {
